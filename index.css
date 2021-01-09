@@ -2,6 +2,14 @@ body, html{
 	padding:0;
 	margin:0;
 }
+@font-face {
+  font-family: Lato-Thin;
+  src: url(Font/Lato-Thin.ttf);
+}
+@font-face {
+  font-family: Lato-Regular;
+  src: url(Font/Lato-Regular.ttf);
+}
 .end-notation{
 	text-align:center;
 	margin-bottom:50px;
@@ -20,7 +28,7 @@ body, html{
     margin-bottom: 20px;
 }
 .bg-image{
-	background:linear-gradient(135deg,rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(main-bg.jpg);
+	background:linear-gradient(135deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(main-bg.jpg);
     background-position: center center; 
 	text-align:center;
 	background-repeat:no-repeat;
@@ -35,13 +43,14 @@ body, html{
 }
 .text-image{
 	color:white;
-	font-family:oswald;
+	font-family:Lato-Thin;
 	font-size:40px;
 	font-weight:bold;
 	line-height:50px;
 }
 .gerald-highlight{
 	color:#87d3dc;
+	font-family:Lato-Regular;
 }
 .dot-white {
   height: 15px;
@@ -84,7 +93,7 @@ body, html{
 }
 .self-description{
 	margin-top:40px;
-	font-family:oswald;
+	font-family:Lato-Regular;
 	font-size:20px;
 	text-align:justify;
 }
@@ -152,7 +161,7 @@ body, html{
 }
 .info-description{
 	font-size:40px;
-	font-family:oswald;
+	font-family:Lato-Thin;
 	font-weight:bold;
 	color:white;
 	margin-top:200px;
@@ -160,7 +169,7 @@ body, html{
 }
 .contact-description{
 	font-size:25px;
-	font-family:oswald;
+	font-family:Lato-Thin;
 	font-weight:bold;
 	color:white;
 	margin-top:190px;
